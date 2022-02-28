@@ -310,7 +310,9 @@ public class btapvenha extends javax.swing.JFrame {
                 while (rs.next()) {//chạy dữ liệu
                     tm.addRow(new Object[]{//gán dữ liệu vào bảng theo thứ tự cột
                         rs.getString(1),// lấy dữ liệu từ sql theo thứ tự
-                        rs.getString(2)
+                        rs.getString(2),
+                        rs.getString(3),
+                    rs.getString(4)
 
                     });
                 }
